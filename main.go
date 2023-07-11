@@ -7,10 +7,11 @@ import (
 	send "EthJar/transaction/send"
 	generateAddress "EthJar/wallet/address"
 	balance "EthJar/wallet/balance"
-	"github.com/gin-gonic/gin"
 	"math/big"
 	"net/http"
 	"os"
+
+	"github.com/gin-gonic/gin"
 )
 
 const (
